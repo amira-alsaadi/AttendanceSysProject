@@ -1,0 +1,9 @@
+{% extends 'base.html'%}
+
+{% block content%}
+
+    {% autoescape off %}
+    {{ gantt_plot }}
+    {% endautoescape%}
+
+{% endblock content%}
